@@ -223,6 +223,8 @@ dotnet new list
 
 ### 2022-05-14
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/xijBGwMEL8E/0.jpg)](https://www.youtube.com/watch?v=xijBGwMEL8E)
+
 На платформе `NET6` (В папке AspNetCore v6.1) можно найти новую версию `Nimble Framework`, который предназначен для быстрого создания микросервисной архитектуры. `Nimble Framework` содержит `IdentityModule` (AuthServer) и Module (microservice). Новая версия доступна для скачивания.
 
 * Удален IdentityServer4 как основа для аутентификации и авторизации на базе OAuth2.0. Теперь Nimble Framework использует для шаблона с сервером авторизации OpenIddict, который также реализует спецификации OAuth2.0.
